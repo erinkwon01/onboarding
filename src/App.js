@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import Post from './Post';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React is cool!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Post author="Erin Kwon" body="Okay werrrrk!" />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
